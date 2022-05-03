@@ -1,0 +1,9 @@
+﻿z4. Klasa Interpreter
+
+Zaimplementować klasę Inrterpreter, będącą kolekcją która przechowuje listę instrukcji bazujących na
+interfejsie IOrder w tym rozkazy definiowane przez użytkownika. Instrukcje mogą być różne
+(Włącz, Wyłącz, Przesuń do pozycji x,y ) i dotyczyć różnych elementów wykonawczych 
+(LED, silnik, serwomechanizm). Instrukcje będą wykonane o zadanym czasie (wykorzystać std::chrono) 
+Klasa powinna umożliwić przeglądanie zapisanych instrukcji oraz ich wypisywanie na dowolny strumień wyjściowy.
+Należy zaimplementować odpowiedni iterator, który umożliwiają np. poruszanie się po instrukcjach dotyczących
+konkretnego urządzenia, czy przegląd wycinka programu w zadanym przedziale czasowym.
